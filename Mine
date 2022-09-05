@@ -1,0 +1,7 @@
+{{exec "remind" "2m30s" "__**Ya ponte a farmear!**__ <a:flecha2:850304237669843004>"}}
+{{ $incrustar := incrustar
+"título" "Recordatorio Activado"
+"descripción" "Prueba"
+}}
+{{sendMessage nil $incrustar}}
+{{eliminar respuesta 0}}
